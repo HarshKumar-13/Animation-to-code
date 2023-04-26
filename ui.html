@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Code Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <label class="input-label" for="component-id-1">Component ID 1:</label>
+      <input
+        class="input-field"
+        type="text"
+        id="component-id-1"
+        placeholder="Enter component ID"
+      />
+      <label class="input-label" for="component-id-2">Component ID 2:</label>
+      <input
+        class="input-field"
+        type="text"
+        id="component-id-2"
+        placeholder="Enter component ID"
+      />
+      <button class="generate-button" id="generate-button">
+        Generate Animation Code
+      </button>
+      <label class="output-label" for="html-output">HTML Output:</label>
+      <textarea class="output-field" id="html-output" readonly></textarea>
+      <label class="output-label" for="css-output">CSS Output:</label>
+      <textarea class="output-field" id="css-output" readonly></textarea>
+      <label class="output-label" for="js-output">JavaScript Output:</label>
+      <textarea class="output-field" id="js-output" readonly></textarea>
+    </div>
+    <script type="module" src="./ui.ts"></script>
+  </body>
+</html>

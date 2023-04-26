@@ -1,0 +1,8 @@
+{
+  "name": "Animation Generator",
+  "id": "1228583568869325370",
+  "api": "1.0.0",
+  "main": "code.ts",
+  "ui": "ui.html",
+  "editorType": ["figma"]
+}
